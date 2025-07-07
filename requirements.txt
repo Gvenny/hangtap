@@ -1,0 +1,11 @@
+# This file specifies the Python dependencies for the hangtap project.
+# Use 'pip install -r requirements.txt' to install them.
+
+# Core library for interacting with Ethereum-compatible blockchains.
+web3==6.12.0
+
+# A dependency of web3, but listed explicitly for clarity. Used for making HTTP requests.
+requests==2.31.0
+
+# Used for loading environment variables from a .env file for configuration.
+python-dotenv==1.0.1
